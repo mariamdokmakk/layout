@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sect {
+
+     width: 400px;
+    height: 200px;
+    border: 1px solid brown;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#sec1 {
+    flex: 1;
+}
+
+#sec2 {
+    flex: 1;
+
+}
+
+#sec3 {
+    flex: 1;
+}
+
+#sec4 {
+    flex: 1;
+}
